@@ -47,16 +47,12 @@
                 <distal x="0.0" y="0.0" z="100.0" diameter="500.0"/>
             </segment>
 
-            <segmentGroup id="Soma">
+            <segmentGroup id="all">
                 <member segment="0"/>
             </segmentGroup>
 
-            <segmentGroup id="all">
-                <include segmentGroup="Soma"/>
-            </segmentGroup>
-
             <segmentGroup id="soma_group">
-                <include segmentGroup="Soma"/>
+                <member segment="0"/>
             </segmentGroup>
 
         </morphology>
